@@ -1,0 +1,27 @@
+table{
+    background-color:rgb(241, 224, 205);
+}
+
+.heading{
+    text-align: center;
+}
+
+.Bbold{
+    font-weight: 600;
+}
+
+.btn{
+    display: flex;
+    margin :auto;
+    justify-content: center;
+}
+
+select{
+    height: inherit;
+
+}
+
+
+.top-input{
+    width: 245px;
+}

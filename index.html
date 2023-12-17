@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Form</title>
+</head>
+
+<body>
+    <p class="Bbold heading" >แบบสอบถาม</p>
+    <hr>
+
+    <form action="#">
+        <table style="width: 357px;" align="center">
+            <tr>
+                <td>
+                    <a class="Bbold">ข้อมูลผู้ตอบแบบสอบถาม</a>
+                </td>
+            </tr>
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+                    <label class="Bbold">ชื่อ-นามสกุล </label>
+                </td>
+                <td>
+                    <input class="top-input" type="text">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <label class="Bbold">รหัสนักศึกษา </label>
+                </td>
+                <td>
+                    <input class="top-input" type="number">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="Bbold">เพศ </label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="sex" value="ชาย" checked>
+                    <label for="male">ชาย</label>
+                    <input type="radio" id="female" name="sex" value="หญิง">
+                    <label for="female">หญิง</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a class="Bbold ee">สังกัดคณะ</a>
+                </td>
+                <td>
+                    <select size="11">
+                        <option >วิทยาศาสตร์</option>
+                        <option >วิทยาการคอมพิวเตอร์</option>
+                        <option >ครุศาสตร์</option>
+                        <option >บริหารธุรกิจและการจัดการ</option>
+                        <option >มนุษยศาสตร์</option>
+                        <option >เทคโนโลยีอุตสาหกรรม</option>
+                        <option >เกษตรศาสตร์</option>
+                        <option >พยาบาลศาสตร์</option>
+                        <option >สาธารณสุขศาสตร์</option>
+                        <option >แพทย์แผนไทยและทางเลือก</option>
+                        <option >นิติศาสตร์</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+        <table align="center">
+            <tr>
+                <td>
+                    <label class="Bbold">แม่สีที่ชอบ</label><br>
+                    <input type="checkbox" name="red" id="red" value="สีแดง">
+                    <label for="red">สีแดง</label>
+                    <input type="checkbox" name="red" id="green" value="สีเขียว">
+                    <label for="green">สีเขียว</label>
+                    <input type="checkbox" name="red" id="blue" value="สีน้ำเงิน">
+                    <label for="bule">สีน้ำเงิน</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="Bbold">ผลไม้ที่ชอบ</label><br>
+                    <input type="checkbox" value="มะม่วง">
+                    <label>มะม่วง</label>
+                    <input type="checkbox" value="น้อยหน่า">
+                    <label>น้อยหน่า</label>
+                    <input type="checkbox" value="ทุเรียน">
+                    <label>ทุเรียน</label><br>
+                    <input type="checkbox" value="ลำใย">
+                    <label>ลำใย</label>
+                    <input type="checkbox" value="ฝรั่ง">
+                    <label>ฝรั่ง</label>
+                    <input type="checkbox" value="แตงโม">
+                    <label>แตงโม</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="Bbold">อาหารที่ชื่นชอบ</label><br>
+                    <input type="checkbox" value="ต้มยำกุ้ง">
+                    <label>ต้มยำกุ้ง</label>
+                    <input type="checkbox" value="ไข่เจียวหมูสับ">
+                    <label>ไข่เจียวหมูสับ</label>
+                    <input type="checkbox" value="แกงข่าไก่">
+                    <label>แกงข่าไก่</label><br>
+                    <input type="checkbox" value="แกงเขียวหวานไก่">
+                    <label>แกงเขียวหวานไก่</label>
+                    <input type="checkbox" value="ผัดไทย">
+                    <label>ผัดไทย</label>
+                    <input type="checkbox" value="ราดหน้าหมี่กรอบ">
+                    <label>ราดหน้าหมี่กรอบ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input class="btn" type="submit" value="บันทึก">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+
+</html>
